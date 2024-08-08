@@ -1,0 +1,84 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background: linear-gradient(to right, #EAECC6, #A1D1E6);
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+#cabecera {
+    background-color: transparent;
+    color: #0651E0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#cabecera h1 {
+    margin: 0;
+    font-size: 2.5em;
+    font-weight: bold;
+}
+
+#experiencia {
+    margin: 40px 0;
+    text-align: center;
+}
+
+#experiencia p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+h2 {
+    color: #0651E0;
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+.proyectos {
+    margin: 40px 0;
+    text-align: center; 
+}
+
+.fotos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.fotos img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.fotos img:hover {
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #0651E0;
+    font-size: 0.9em;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    margin: 0 15px;
+    color: #0651E0;
+    font-size: 1.5em; 
+    transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+    color: #333;
+}
